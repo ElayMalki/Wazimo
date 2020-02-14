@@ -1,0 +1,40 @@
+.table-wrapper {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    font-family: Roboto, 'Open Sans', sans-serif;
+}
+.searchInput{
+    margin-bottom: 20px;
+    font-size: 15px;
+    border: none;
+}
+
+.table {
+    width: 80%;
+    background-color: #fff;
+    border-collapse: collapse;
+    padding: 16px 30px;
+}
+.table tr {
+    line-height: 1.6;
+    border-bottom: 1px solid #f2f2f2;
+}
+
+.table__header th {
+    position: sticky;
+    top: 0;
+    padding: 20px 20px 15px 24px;
+    background-color: #fff;
+    text-align: left;
+}
+
+.table__body {
+    color: #666666;
+    font-size: 15px;
+}
+
+.table__body td {
+    padding: 16px 0 16px 24px;
+}
